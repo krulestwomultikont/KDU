@@ -116,6 +116,13 @@ th {
     animation: blinker 1.5s linear infinite;
     color: rgb(119, 32, 141)
 }
+.fs7 {  
+    font-size: 10px;
+    font-family: "Sans-serif", Verdana;
+    margin: 5%;
+    animation: blinker 1.5s linear infinite;
+    color: rgb(175, 164, 164)
+}
 @keyframes blinker {
     50% {
         opacity: 0.6;
