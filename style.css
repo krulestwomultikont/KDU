@@ -1,6 +1,6 @@
 
 body {
-    background-image: url('asdf.png');
+
 	background-color: darkred;
     background-repeat: no-repeat;
     background-position: center;
@@ -178,39 +178,78 @@ th {
     width: 95%;
 }
 
-#h_headerMenu {
-	position:relative;
-    float:left;
+.navbar {
+  background-color: #530000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 16px;
+    font-family: "Arial";
 }
-#h_headerMenu ul {
-	list-style: none;
-	padding-left: 0px;
-	margin-top: 0px;
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
 }
-#h_headerMenu ul li a {
-	list-style: none;
-    display: inline-block;
-    text-decoration: none;
+
+.menu > li {
+  position: relative;
 }
-#h_headerMenu ul a {
-	padding-right: 10px;
-	padding-left: 10px;
-    color: rgb(221, 67, 67)
+
+.menu a {
+  display: block;
+  padding: 1rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
 }
-#h_headerMenu li a:hover {
-    background-color: rgb(110, 10, 10); 
-    text-decoration: underline;
+
+.menu a:hover {
+  background-color: #a37405;
 }
-#h_headerMenu table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 0px;
-    margin-top: 10px;
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #d4af37;
+  min-width: 200px;
+  z-index: 1000;
+  list-style: none; /* USUWA KÓŁKA */
+  padding: 0;
+  margin: 0;
+}
+
+.submenu a {
+  color: #3c2f0e;
+}
+
+.submenu li a {
+  padding: 0.75rem 1rem;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+.submenu a:hover {
+  background-color: #f0d78c;
+}
+
+.menu, .submenu {
+  list-style: none;
 }
 
 #h_headerPanel li a:hover{
     background-color:  rgb(110, 10, 10);
-    text-decoration: underline;
+    text-decoration: none;
  }
  #h_headerPanel ul {
 	list-style: none;
