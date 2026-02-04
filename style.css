@@ -131,14 +131,12 @@ th {
     color: rgb(37, 97, 187)
 }
 @keyframes blinker {
-    50% {
+    70% {
         opacity: 0.6;
     }
 }
 
-.blink {  
-    animation: blinker 1.5s linear infinite;
-}
+
 .noBorder{
     border-bottom: 2px;
     border-bottom-style: none;
