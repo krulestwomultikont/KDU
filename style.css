@@ -138,7 +138,7 @@ th {
 
 
 .noBorder{
-    border-bottom: 2px;
+    border-bottom: 0;
     border-bottom-style: none;
     border-bottom-color: rgb(197, 128, 0);
 }
@@ -278,32 +278,39 @@ th {
     text-decoration: none;
  }
 
- .tooltip-container {
-  /* Wymagane dla pozycjonowania 'absolute' elementu podrzędnego */
+/* 1. Stabilizacja kontenera */
+.tooltip-container {
   position: relative;
-  display: inline-block; /* Aby kontener był tylko tak szeroki jak jego zawartość */
+  display: inline-flex; /* Zmiana z inline-block na inline-flex lepiej stabilizuje tekst */
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle; /* Wyrównuje do środka linii w tabeli */
 }
 
+/* 2. Stabilizacja okienka */
 .tooltip-text {
-  visibility: hidden; /* Początkowo okienko jest ukryte */
-  width: 350px; /* Szerokość okienka */
+  visibility: hidden;
+  width: 350px;
   background-color: #550808;
   color: #fff;
   text-align: center;
-  padding: 5px 0;
+  padding: 8px 10px;
   border-radius: 6px;
-  font-size:10px;
+  font-size: 11px;
   border: 3px solid #b95a00;
-
-  /* Pozycjonowanie, aby okienko było nad tekstem */
+  
   position: absolute;
-  z-index: 1; /* Aby upewnić się, że okienko jest na wierzchu */
-  bottom: 125%; /* 125% od góry kontenera (pojawia się nad) */
+  z-index: 9999;
+  bottom: 125%;
   left: 50%;
-  margin-left: -75px; /* Połowa szerokości, aby wyśrodkować */
+  transform: translateX(-50%); /* Najbezpieczniejszy sposób centrowania bez liczenia marginesów */
+  
+  /* Ważne: zapobiega wpływaniu tooltipa na tekst pod spodem */
+  pointer-events: none; 
+  white-space: normal;
 }
 
-/* 💥 Magia: Wyświetl okienko, gdy najedziesz na jego kontener */
+/* 3. Wyświetlanie */
 .tooltip-container:hover .tooltip-text {
-  visibility: visible; /* Zmień ukryty na widoczny */
+  visibility: visible;
 }
