@@ -1,0 +1,316 @@
+
+body {
+
+	background-color: darkred;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 60%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom:40px;
+   }
+th {
+    margin-bottom: 10px;
+}   
+
+   
+.tdtd1 {
+    border-bottom: 1px solid rgb(255, 115, 0);
+   }
+  #body {
+      
+      background-position: center;
+      background-attachment: fixed;
+      width: 1200px;
+      margin: 0 auto;
+      margin-top: 3px;
+      background-color: rgba(65, 0, 0, 0.932);
+      border: 3px solid #b95a00;
+  }
+  #body2 {
+      
+    background-position: center;
+    background-attachment: fixed;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: rgb(65, 0, 0);
+    border: 3px solid #b95a00;
+    line-height: 1.5;
+    border-bottom: none;
+}
+#body3 {
+      
+    background-position: center;
+    background-attachment: fixed;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: rgb(65, 0, 0);
+    border: 3px solid #b95a00;
+    line-height: 1.5;
+    border-top: none;
+}
+#body4 {
+      
+    background-position: center;
+    background-attachment: fixed;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: rgb(65, 0, 0);
+    border: 3px solid #b95a00;
+    line-height: 1.5;
+}
+ 
+#h_banner {
+	padding-bottom: 12px;
+	padding-top: 10px;
+	font-size: 12px;
+}
+#header{
+    min-height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fs1 {  
+    font-size: 15px;
+    font-family: "Sans-serif", Verdana;
+    margin: 5%;
+    color: rgb(255, 166, 0)
+    
+    
+}
+.fs2 {  
+    font-size: 15px;
+    font-family: "Sans-serif", Verdana;
+    margin: 5%;
+    color: rgb(255, 166, 0)
+}
+.fs3 {  
+    font-size: 20px;
+    font-family: "Times new roman";
+    margin: 5%;
+    color: rgb(255, 166, 0)
+}
+.fs4 {  
+    font-size: 20px;
+    font-family: "Times new roman";
+    margin: 10px;
+    color: rgb(255, 166, 0)
+}
+.fs5 {  
+    font-size: 10px;
+    font-family: "Sans-serif", Verdana;
+    margin: 5%;
+    animation: blinker 1.5s linear infinite;
+    color: rgb(0, 233, 31)
+}
+.fs6 {  
+    font-size: 10px;
+    font-family: "Sans-serif", Verdana;
+    margin: 5%;
+    animation: blinker 1.5s linear infinite;
+    color: rgb(158, 42, 187)
+}
+.fs7 {  
+    font-size: 10px;
+    font-family: "Sans-serif", Verdana;
+    margin: 5%;
+    animation: blinker 1.5s linear infinite;
+    color: rgb(175, 164, 164)
+}
+.fs8 {  
+    font-size: 10px;
+    font-family: "Sans-serif", Verdana;
+    margin: 5%;
+    animation: blinker 1.5s linear infinite;
+    color: rgb(80, 146, 245)
+}
+@keyframes blinker {
+    70% {
+        opacity: 0.6;
+    }
+}
+
+
+.noBorder{
+    border-bottom: 0;
+    border-bottom-style: none;
+    border-bottom-color: rgb(197, 128, 0);
+}
+
+.width100p{
+    width: 100%;
+}
+
+.width15p{
+    width: 15%;
+}
+.width85p{
+    width: 85%;
+}
+
+.width50px {
+    width: 50px;
+}
+.width150px {
+    width: 150px;
+}
+
+.width75px {
+    width: 75px;
+}
+
+.width90px {
+    width: 90px;
+}
+
+.width100px {
+    width: 100px;
+}
+.width100px2 {
+    width: 100px;
+}
+
+.width30px {
+    width: 30px;
+}
+
+.width700px {
+    width: 60%;
+}
+.width95p {
+    width: 95%;
+}
+
+.navbar {
+  background-color: #530000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 16px;
+    font-family: "Arial";
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.menu > li {
+  position: relative;
+}
+
+.menu a {
+  display: block;
+  padding: 1rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.menu a:hover {
+  background-color: #a37405;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #d4af37;
+  min-width: 200px;
+  z-index: 1000;
+  list-style: none; /* USUWA KÓŁKA */
+  padding: 0;
+  margin: 0;
+}
+
+.submenu a {
+  color: #3c2f0e;
+}
+
+.submenu li a {
+  padding: 0.75rem 1rem;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+.submenu a:hover {
+  background-color: #f0d78c;
+}
+
+.menu, .submenu {
+  list-style: none;
+}
+
+#h_headerPanel li a:hover{
+    background-color:  rgb(110, 10, 10);
+    text-decoration: none;
+ }
+ #h_headerPanel ul {
+	list-style: none;
+	padding-left: 20px;
+	margin-top: 0px;
+ }
+ #h_headerPanel ul li {
+	list-style: none;
+    display: inline-block;
+ }
+ #h_headerPanel ul a {
+	padding-right: 10px;
+	padding-left: 10px;
+    color: rgb(221, 67, 67)
+ }
+ #h_headerPanel a {
+    text-decoration: none;
+ }
+
+/* 1. Stabilizacja kontenera */
+.tooltip-container {
+  position: relative;
+  display: inline-flex; /* Zmiana z inline-block na inline-flex lepiej stabilizuje tekst */
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle; /* Wyrównuje do środka linii w tabeli */
+}
+
+/* 2. Stabilizacja okienka */
+.tooltip-text {
+  visibility: hidden;
+  width: 350px;
+  background-color: #550808;
+  color: #fff;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  border: 3px solid #b95a00;
+  
+  position: absolute;
+  z-index: 9999;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%); /* Najbezpieczniejszy sposób centrowania bez liczenia marginesów */
+  
+  /* Ważne: zapobiega wpływaniu tooltipa na tekst pod spodem */
+  pointer-events: none; 
+  white-space: normal;
+}
+
+/* 3. Wyświetlanie */
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+}
