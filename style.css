@@ -1,209 +1,38 @@
+/* ==========================================================================
+   RESET I PRZYWRÓCONA PALETA KOLORÓW (CIEMNA CZERWIEŃ / ZŁOTO / POMARAŃCZ)
+   ========================================================================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 body {
-
-	background-color: darkred;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 60%;
-}
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom:40px;
-   }
-th {
-    margin-bottom: 10px;
-}   
-
-   
-.tdtd1 {
-    border-bottom: 1px solid rgb(255, 115, 0);
-   }
-  #body {
-      
-      background-position: center;
-      background-attachment: fixed;
-      width: 1200px;
-      margin: 0 auto;
-      margin-top: 3px;
-      background-color: rgba(65, 0, 0, 0.932);
-      border: 3px solid #b95a00;
-  }
-  #body2 {
-      
-    background-position: center;
-    background-attachment: fixed;
-    width: 1200px;
-    margin: 0 auto;
-    margin-top: 0px;
-    background-color: rgb(65, 0, 0);
-    border: 3px solid #b95a00;
-    line-height: 1.5;
-    border-bottom: none;
-}
-#body3 {
-      
-    background-position: center;
-    background-attachment: fixed;
-    width: 1200px;
-    margin: 0 auto;
-    margin-top: 0px;
-    background-color: rgb(65, 0, 0);
-    border: 3px solid #b95a00;
-    line-height: 1.5;
-    border-top: none;
-}
-#body4 {
-      
-    background-position: center;
-    background-attachment: fixed;
-    width: 1200px;
-    margin: 0 auto;
-    margin-top: 0px;
-    background-color: rgb(65, 0, 0);
-    border: 3px solid #b95a00;
-    line-height: 1.5;
-}
- 
-#h_banner {
-	padding-bottom: 12px;
-	padding-top: 10px;
-	font-size: 12px;
-}
-#header{
-    min-height: 200px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.fs1 {  
-    font-size: 15px;
-    font-family: "Sans-serif", Verdana;
-    margin: 5%;
-    color: rgb(255, 166, 0)
-    
-    
-}
-.fs2 {  
-    font-size: 15px;
-    font-family: "Sans-serif", Verdana;
-    margin: 5%;
-    color: rgb(255, 166, 0)
-}
-.fs3 {  
-    font-size: 20px;
-    font-family: "Times new roman";
-    margin: 5%;
-    color: rgb(255, 166, 0)
-}
-.fs4 {  
-    font-size: 20px;
-    font-family: "Times new roman";
-    margin: 10px;
-    color: rgb(255, 166, 0)
-}
-.fs5 {  
-    font-size: 10px;
-    font-family: "Sans-serif", Verdana;
-    margin: 5%;
-    animation: blinker 1.5s linear infinite;
-    color: rgb(0, 233, 31)
-}
-.fs6 {  
-    font-size: 10px;
-    font-family: "Sans-serif", Verdana;
-    margin: 5%;
-    animation: blinker 1.5s linear infinite;
-    color: rgb(158, 42, 187)
-}
-.fs7 {  
-    font-size: 10px;
-    font-family: "Sans-serif", Verdana;
-    margin: 5%;
-    animation: blinker 1.5s linear infinite;
-    color: rgb(175, 164, 164)
-}
-.fs8 {  
-    font-size: 10px;
-    font-family: "Sans-serif", Verdana;
-    margin: 5%;
-    animation: blinker 1.5s linear infinite;
-    color: rgb(80, 146, 245)
-}
-@keyframes blinker {
-    70% {
-        opacity: 0.6;
-    }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #3b0000;
+  color: #f1f3f5;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
 
-
-.noBorder{
-    border-bottom: 0;
-    border-bottom-style: none;
-    border-bottom-color: rgb(197, 128, 0);
-}
-
-.width100p{
-    width: 100%;
-}
-
-.width15p{
-    width: 15%;
-}
-.width85p{
-    width: 85%;
-}
-
-.width50px {
-    width: 50px;
-}
-.width150px {
-    width: 150px;
-}
-
-.width75px {
-    width: 75px;
-}
-
-.width90px {
-    width: 90px;
-}
-
-.width100px {
-    width: 100px;
-}
-.width100px2 {
-    width: 100px;
-}
-
-.width30px {
-    width: 30px;
-}
-
-.width700px {
-    width: 60%;
-}
-.width95p {
-    width: 95%;
-}
-
+/* ==========================================================================
+   PASEK NAWIGACYJNY
+   ========================================================================== */
 .navbar {
-  background-color: #530000;
+  background-color: #240000;
+  width: 100%;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  font-size: 16px;
-    font-family: "Arial";
+  border-bottom: 2px solid #b95a00;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .menu {
   list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
 }
 
 .menu > li {
@@ -212,15 +41,19 @@ th {
 
 .menu a {
   display: block;
-  padding: 1rem 1.5rem;
-  color: white;
+  color: #f8fafc;
   text-decoration: none;
-  font-weight: 500;
-  transition: background 0.3s;
+  padding: 14px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.menu a:hover {
-  background-color: #a37405;
+.menu > li > a:hover {
+  background-color: #530000;
+  color: #ffaa00;
 }
 
 .submenu {
@@ -228,89 +61,410 @@ th {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #d4af37;
-  min-width: 200px;
-  z-index: 1000;
-  list-style: none; /* USUWA KÓŁKA */
+  background: #4a0000;
+  min-width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.submenu a {
-  color: #3c2f0e;
+  border: 1px solid #b95a00;
+  border-top: none;
+  z-index: 1001;
 }
 
 .submenu li a {
-  padding: 0.75rem 1rem;
+  color: #f1f3f5;
+  padding: 10px 16px;
+  text-transform: none;
+  font-size: 13px;
+  font-weight: 500;
+  border-bottom: 1px solid #630505;
+}
+
+.submenu li:last-child a {
+  border-bottom: none;
+}
+
+.submenu li a:hover {
+  background-color: #630505;
+  color: #ffaa00;
 }
 
 .menu li:hover .submenu {
   display: block;
 }
 
-.submenu a:hover {
-  background-color: #f0d78c;
+/* ==========================================================================
+   GŁÓWNY KONTENER I NAGŁÓWEK URZĘDOWY
+   ========================================================================== */
+.main-wrapper {
+  max-width: 1100px;
+  margin: 30px auto 100px auto;
+  padding: 0 16px;
 }
 
-.menu, .submenu {
-  list-style: none;
+.registry-header {
+  background: #4a0000;
+  border: 2px solid #b95a00;
+  border-radius: 4px;
+  padding: 24px 28px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
-#h_headerPanel li a:hover{
-    background-color:  rgb(110, 10, 10);
-    text-decoration: none;
- }
- #h_headerPanel ul {
-	list-style: none;
-	padding-left: 20px;
-	margin-top: 0px;
- }
- #h_headerPanel ul li {
-	list-style: none;
-    display: inline-block;
- }
- #h_headerPanel ul a {
-	padding-right: 10px;
-	padding-left: 10px;
-    color: rgb(221, 67, 67)
- }
- #h_headerPanel a {
-    text-decoration: none;
- }
+.header-emblem-box {
+  flex-shrink: 0;
+}
 
-/* 1. Stabilizacja kontenera */
+.header-emblem {
+  width: 90px;
+  height: auto;
+  display: block;
+}
+
+.header-text-box h1 {
+  font-size: 22px;
+  margin: 0 0 4px 0;
+  color: #ffaa00;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #e0b080;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.legal-basis {
+  font-size: 13px;
+  color: #d1d5db;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  text-align: justify;
+}
+
+.operator {
+  font-size: 11px;
+  font-weight: 700;
+  color: #58a6ff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ==========================================================================
+   LEGENDA I WYSZUKIWARKA
+   ========================================================================== */
+.vassal-box {
+  background: #410000;
+  border-left: 4px solid #ffaa00;
+  border-top: 1px solid #751414;
+  border-right: 1px solid #751414;
+  border-bottom: 1px solid #751414;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border-radius: 0 4px 4px 0;
+}
+
+.vassal-title {
+  color: #ffaa00;
+  display: block;
+  font-size: 12px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.legend-grid {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: #d1d5db;
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 14px;
+  background-color: #2b0000;
+  color: #ffffff;
+  border: 1px solid #b95a00;
+  border-radius: 4px;
+  outline: none;
+}
+
+.search-box input:focus {
+  border-color: #ffaa00;
+  box-shadow: 0 0 0 3px rgba(255, 170, 0, 0.25);
+}
+
+.search-box button {
+  padding: 10px 22px;
+  background: #b95a00;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 13px;
+  transition: background-color 0.2s ease;
+}
+
+.search-box button:hover {
+  background: #db6e03;
+}
+
+/* ==========================================================================
+   PASEK ZAKŁADEK
+   ========================================================================== */
+.tabs-bar {
+  display: flex;
+  gap: 4px;
+  border-bottom: 2px solid #b95a00;
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+.tab-button {
+  background: #2b0000;
+  border: 1px solid #751414;
+  border-bottom: none;
+  padding: 11px 18px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #d1d5db;
+  cursor: pointer;
+  border-radius: 4px 4px 0 0;
+  transition: all 0.2s ease;
+}
+
+.tab-button:hover {
+  background: #410000;
+  color: #ffaa00;
+}
+
+.tab-button.active {
+  background: #b95a00;
+  color: #ffffff;
+  border-color: #b95a00;
+}
+
+/* ==========================================================================
+   KARTY I TABELE URZĘDOWE
+   ========================================================================== */
+.item-card {
+  background: #4a0000;
+  border: 2px solid #b95a00;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.item-header {
+  background: #3b0000;
+  padding: 14px 20px;
+  border-bottom: 1px solid #751414;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-sig {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffaa00;
+}
+
+.badge-grand {
+  background: #274b1f;
+  color: #7ee787;
+  border: 1px solid #3fb950;
+  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  padding: 16px;
+}
+
+.official-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.official-table th, .official-table td {
+  border: 1px solid #751414;
+  padding: 10px 12px;
+  vertical-align: middle;
+}
+
+.official-table th {
+  background: #2e0000;
+  color: #ffaa00;
+  font-weight: 700;
+}
+
+.official-table tbody tr {
+  background-color: #4a0000;
+}
+
+.official-table tbody tr:nth-child(even) {
+  background-color: #410000;
+}
+
+.official-table tbody tr:hover {
+  background-color: #550505;
+}
+
+/* ==========================================================================
+   NOWE ETYKIETY STATUSÓW (BADGES - BEZ MIGANIA)
+   ========================================================================== */
+.badge-status {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 3px;
+  white-space: nowrap;
+  letter-spacing: 0.4px;
+}
+
+.status-active {
+  background: #143818;
+  color: #56d364;
+  border: 1px solid #238636;
+}
+
+.status-repealed {
+  background: #391942;
+  color: #d2a8ff;
+  border: 1px solid #8957e5;
+}
+
+.status-amended {
+  background: #142a4d;
+  color: #79c0ff;
+  border: 1px solid #388bfd;
+}
+
+.status-onetime {
+  background: #2a2c30;
+  color: #8b949e;
+  border: 1px solid #6e7681;
+}
+
+/* Tooltip dla statusów */
 .tooltip-container {
   position: relative;
-  display: inline-flex; /* Zmiana z inline-block na inline-flex lepiej stabilizuje tekst */
-  align-items: center;
-  justify-content: center;
-  vertical-align: middle; /* Wyrównuje do środka linii w tabeli */
+  display: inline-flex;
+  cursor: help;
 }
 
-/* 2. Stabilizacja okienka */
 .tooltip-text {
   visibility: hidden;
-  width: 350px;
-  background-color: #550808;
-  color: #fff;
+  width: 250px;
+  background-color: #1a0000;
+  color: #ffeedb;
   text-align: center;
-  padding: 8px 10px;
-  border-radius: 6px;
+  padding: 8px 12px;
+  border-radius: 4px;
   font-size: 11px;
-  border: 3px solid #b95a00;
-  
+  border: 1px solid #ffaa00;
   position: absolute;
-  z-index: 9999;
-  bottom: 125%;
+  z-index: 1000;
+  bottom: 130%;
   left: 50%;
-  transform: translateX(-50%); /* Najbezpieczniejszy sposób centrowania bez liczenia marginesów */
-  
-  /* Ważne: zapobiega wpływaniu tooltipa na tekst pod spodem */
-  pointer-events: none; 
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
   white-space: normal;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
 
-/* 3. Wyświetlanie */
 .tooltip-container:hover .tooltip-text {
   visibility: visible;
+  opacity: 1;
+}
+
+/* ==========================================================================
+   IKONY PLIKÓW
+   ========================================================================== */
+.file-icons {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.file-link:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.legacy-icon {
+  width: 42px;
+  height: auto;
+  display: block;
+}
+
+/* Komunikaty */
+.search-no-results {
+  padding: 14px 18px;
+  background: #500e12;
+  border: 1px solid #f85149;
+  color: #ff7b72;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+/* Stopka */
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #240000;
+  color: #d1d5db;
+  text-align: center;
+  padding: 12px 10px;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-top: 1px solid #b95a00;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .registry-header {
+    flex-direction: column;
+    text-align: center;
+  }
 }
