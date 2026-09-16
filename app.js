@@ -13,6 +13,7 @@ const statusMap = {
 // ==========================================================================
 const kduDb = {
   "2026": [
+    { pos: 50, title: "Dekret z 16.09.2026 r. o publikatorach koronnych", date: "2026-09-16", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 49, title: "Dekret z 24.02.2026 r. o organizacji arystokracji (znowelizowany)", date: "2026-09-11", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 48, title: "Ustawa z 26.08.2026 r. o szkolnictwie wyższym i nauce", date: "2026-08-26", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 47, title: "Ustawa z 25.08.2026 r. o wolnościach sumienia i wyznania oraz koronnym podatku religijnym", date: "2026-08-25", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
@@ -72,7 +73,7 @@ const kduDb = {
     { pos: 22, title: "Ustawa z 28.08.2025 r. o egzekucji administracyjnej", date: "2025-08-28", status: "Akt utracił moc", note: "Uchylony na mocy art. 56 Kr. Dz. U z 2026 r. poz. 26", pdfImg: "ustawa.png", docxImg: null },
     { pos: 21, title: "Ustawa z 15.08.2025 r. o organizacji i trybie postępowania Senatu", date: "2025-08-15", status: "Znowelizowany", note: "Znowelizowany przez Kr. Dz. U. z 2026 r. poz. 8", pdfImg: "ustawa.png", docxImg: null },
     { pos: 20, title: "Dyrektywa wykonawcza Lorda Kanclerza z 21.07.2025 r. o utworzeniu Państwowego Ośrodka Hodowli Cebul w Kwiatogrodzie", date: "2025-07-21", status: "Akt utracił moc", note: "Uchylony na mocy art. 23 Kr. Dz. U z 2026 r. poz. 27", pdfImg: "dyrektywa.png", docxImg: null },
-    { pos: 19, title: "Dekret z 08.06.2025 r. o Monitorze Krulewskim", date: "2025-06-08", status: "Obowiązujący", note: null, pdfImg: "dekret.png", docxImg: null },
+    { pos: 19, title: "Dekret z 08.06.2025 r. o Monitorze Krulewskim", date: "2025-06-08", status: "Akt utracił moc", note: "Uchylony na mocy art. 19 ust. 1 pkt 2 Kr. Dz. U. z 2026 r. poz. 50", pdfImg: "dekret.png", docxImg: null },
     { pos: 18, title: "Dyrektywa Wykonawcza Rady Lordów z 22.05.2025 r. o nadaniu statusu gminy miejskiej gminom", date: "2025-05-22", status: "Obowiązujący", note: null, pdfImg: "dyrektywa.png", docxImg: null },
     { pos: 17, title: "Dekret z 28.03.2025 r. o dwustopniowym podziale terytorialnym Krulestwa Multikont", date: "2025-03-28", status: "Akt utracił moc", note: "Uchylony na mocy art. 3 pkt 9 Kr. Dz. U z 2026 r. poz. 2", pdfImg: "dekret.png", docxImg: null },
     { pos: 16, title: "Dekret z 26.03.2025 r. o prawie wyborczym", date: "2025-03-26", status: "Znowelizowany", note: "Znowelizowany przez Kr. Dz. U. z 2026 r. poz. 7", pdfImg: "dekret.png", docxImg: null },
@@ -90,7 +91,7 @@ const kduDb = {
     { pos: 4, title: "Obwieszczenie Krulewskiej Rady Wyborczej w sprawie ogłoszenia wyników wyborów do Izby Multikont Senatu Krulestwa III kadencji, które odbyły się 18.01.2025 r.", date: "2025-01-19", status: "Akt jednorazowy", note: null, pdfImg: "Pozostałe_akty.png", docxImg: null },
     { pos: 3, title: "Ustawa z 15.01.2025 r. o własności prywatnej", date: "2025-01-15", status: "Akt utracił moc", note: "Uchylony na mocy art. 5 pkt 7 Kr. Dz. U z 2026 r. poz. 1", pdfImg: "ustawa.png", docxImg: null },
     { pos: 2, title: "Dekret Konstytucyjny z 14.01.2025 r. o źródłach prawa w Krulestwie Multikont", date: "2025-01-14", status: "Akt utracił moc", note: "Uchylony na mocy art. 149 Kr. Dz. U z 2025 r. poz. 26", pdfImg: "dekretkonst.png", docxImg: null },
-    { pos: 1, title: "Dekret z 12.01.2025 r. o zmianie adresu strony internetowej Krulewskiego Dziennika Ustaw", date: "2025-01-12", status: "Obowiązujący", note: null, pdfImg: "dekret.png", docxImg: null }
+    { pos: 1, title: "Dekret z 12.01.2025 r. o zmianie adresu strony internetowej Krulewskiego Dziennika Ustaw", date: "2025-01-12", status: "Akt utracił moc", note: "Uchylony na mocy art. 19 ust. 1 pkt 1 Kr. Dz. U. z 2026 r. poz. 50", pdfImg: "dekret.png", docxImg: null }  
   ],
   "2024": [
     { pos: 26, title: "Konwencja o przeciwdziałaniu naruszeniom prawa Multikont z 13.12.2024 r.", date: "2024-12-13", status: "Obowiązujący", note: null, pdfImg: "dwzzm.png", docxImg: null },
