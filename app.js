@@ -13,6 +13,7 @@ const statusMap = {
 // ==========================================================================
 const kduDb = {
   "2026": [
+    { pos: 51, title: "Ustawa z 17.03.2025 r. o samorządzie prowincji (znowelizowana)", date: "2026-09-17", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 50, title: "Dekret z 16.09.2026 r. o publikatorach koronnych", date: "2026-09-16", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 49, title: "Dekret z 24.02.2026 r. o organizacji arystokracji (znowelizowany)", date: "2026-09-11", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 48, title: "Ustawa z 26.08.2026 r. o szkolnictwie wyższym i nauce", date: "2026-08-26", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
@@ -28,7 +29,7 @@ const kduDb = {
     { pos: 38, title: "Rozporządzenie Ministra Spraw Wewnętrznych i Bezpieczeństwa Państwa z 03.08.2026 r. w sprawie warunków technicznych, standardów kryptograficznych, protokołów bezpieczeństwa oraz architektury połączeń bazodanowych Centralnego Rejestru Adresów Elektronicznych (CRAE)", date: "2026-08-03", status: "Obowiązujący", note: null, pdfImg: "dyrektywa_pdf.png", docxImg: "dyrektywa_docx.png" },
     { pos: 37, title: "Ustawa z 02.08.2026 r. o Centralnym Rejestrze Adresów Elektronicznych", date: "2026-08-02", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 36, title: "Ustawa z 31.05.2026 r. Koronny Kodeks Handlu Międzyregionalnego (znowelizowana)", date: "2026-08-02", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
-    { pos: 35, title: "Ustawa z 17.03.2025 r. o samorządzie prowincji (znowelizowana)", date: "2026-07-21", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
+    { pos: 35, title: "Ustawa z 17.03.2025 r. o samorządzie prowincji (znowelizowana)", date: "2026-07-21", status: "Znowelizowany", note: "Znowelizowany przez Kr. Dz. U. z 2026 r. poz. 51", pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 34, title: "Ustawa z 15.03.2025 r. o samorządzie gminy (znowelizowana)", date: "2026-07-21", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 33, title: "Ustawa z 19.07.2026 r. o Rzeczniku Praw Obywatelskich i Rzeczniku Praw Multikont i Botów", date: "2026-07-19", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 32, title: "Ustawa z 31.05.2026 r. wprowadzająca Koronny Kodeks Cywilny i Koronny Kodeks Handlu Międzyregionalnego", date: "2026-05-31", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
