@@ -13,6 +13,7 @@ const statusMap = {
 // ==========================================================================
 const kduDb = {
   "2026": [
+    { pos: 52, title: "Dekret z 10.10.2026 r. o Gwardii Krula", date: "2026-10-10", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 51, title: "Ustawa z 17.03.2025 r. o samorządzie prowincji (znowelizowana)", date: "2026-09-17", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 50, title: "Dekret z 16.09.2026 r. o publikatorach koronnych", date: "2026-09-16", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 49, title: "Dekret z 24.02.2026 r. o organizacji arystokracji (znowelizowany)", date: "2026-09-11", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
@@ -123,7 +124,7 @@ const kduDb = {
     { pos: 1, title: "Obwieszczenie Krulewskiej Rady Wyborczej w sprawie ogłoszenia wyników wyborów do Izby Multikont Senatu Krulestwa II kadencji, które odbyły się 17.01.2024 r.", date: "2024-01-18", status: "Akt jednorazowy", note: null, pdfImg: "Pozostałe_akty.png", docxImg: null }
   ],
   "2023": [
-    { pos: 34, title: "Dekret Krula z 15.12.2023 r. o Gwardii Krula", date: "2023-12-15", status: "Obowiązujący", note: null, pdfImg: "dekret.png", docxImg: null },
+    { pos: 34, title: "Dekret Krula z 15.12.2023 r. o Gwardii Krula", date: "2023-12-15", status: "Akt utracił moc", note: "Uchylony na mocy Kr. Dz. U. z 2026 r. poz. 52", pdfImg: "dekret.png", docxImg: null },
     { pos: 33, title: "Dekret Krula z 08.12.2023 r. o Rodzinie Krulewskiej i sukcesji Tronu Krulestwa", date: "2023-12-08", status: "Znowelizowany", note: "Znowelizowany przez Kr. Dz. U. z 2026 r. poz. 6", pdfImg: "dekret.png", docxImg: null },
     { pos: 32, title: "Ustawa z 06.12.2023 r. o samorządzie prowincji i administracji w prowincji", date: "2023-12-06", status: "Akt utracił moc", note: null, pdfImg: "ustawa.png", docxImg: null },
     { pos: 31, title: "Konwencja o zwalczaniu szkodliwej działalności altkont i fejk kont z 29.11.2023 r.", date: "2023-11-29", status: "Obowiązujący", note: null, pdfImg: "dwzzm.png", docxImg: null },
