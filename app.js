@@ -13,6 +13,7 @@ const statusMap = {
 // ==========================================================================
 const kduDb = {
   "2026": [
+    { pos: 53, title: "Dekret z 24.10.2026 r. o prawie wyborczym", date: "2026-10-24", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 52, title: "Dekret z 10.10.2026 r. o Gwardii Krula", date: "2026-10-10", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 51, title: "Ustawa z 17.03.2025 r. o samorządzie prowincji (znowelizowana)", date: "2026-09-17", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 50, title: "Dekret z 16.09.2026 r. o publikatorach koronnych", date: "2026-09-16", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
@@ -58,7 +59,7 @@ const kduDb = {
     { pos: 10, title: "Ustawa z 05.03.2026 r. o Rządzie Koronnym", date: "2026-03-05", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 9, title: "Obwieszczenie Krulewskiej Rady Wyborczej z 05.03.2026 r. w sprawie ogłoszenia wyników wyborów do Izby Multikont Senatu Koronnego IV kadencji, które odbyły się 04.03.2026 r.", date: "2026-03-05", status: "Akt jednorazowy", note: null, pdfImg: "Pozostałe_akty_pdf.png", docxImg: "Pozostałe_akty_docx.png" },
     { pos: 8, title: "Ustawa z 15.08.2025 r. o organizacji i trybie postępowania Senatu (znowelizowana)", date: "2026-03-03", status: "Obowiązujący", note: "Tekst znowelizowany Kr. Dz. U. z 2025 r. poz. 21", pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
-    { pos: 7, title: "Dekret z 26.03.2025 r. o prawie wyborczym (znowelizowany)", date: "2026-03-02", status: "Obowiązujący", note: "Tekst znowelizowany Kr. Dz. U. z 2025 r. poz. 16", pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
+    { pos: 7, title: "Dekret z 26.03.2025 r. o prawie wyborczym (znowelizowany)", date: "2026-03-02", status: "Akt utracił moc", note: "Uchylony na mocy art. 40 Kr. Dz. U z 2026 r. poz. 53", pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 6, title: "Dekret z 08.12.2023 r. o Rodzinie Krulewskiej i sukcesji Tronu Korony (znowelizowany)", date: "2026-03-02", status: "Obowiązujący", note: "Tekst znowelizowany Kr. Dz. U. z 2023 r. poz. 33", pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 5, title: "Dekret z 24.02.2026 r. o organizacji arystokracji", date: "2026-02-24", status: "Znowelizowany", note: "Znowelizowany przez Kr. Dz. U. z 2026 r. poz. 49", pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 4, title: "Obwieszczenie Krula Multikont z 05.02.2026 r. o wejściu w życie Konstytucji Korony Krulestwa Multikont", date: "2026-02-05", status: "Akt jednorazowy", note: null, pdfImg: "Pozostałe_akty_pdf.png", docxImg: "Pozostałe_akty_docx.png" },
