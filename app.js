@@ -13,6 +13,7 @@ const statusMap = {
 // ==========================================================================
 const kduDb = {
   "2026": [
+    { pos: 54, title: "Ustawa z 23.10.2026 r. o Koronnym Banku Centralnym", date: "2026-10-25", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 53, title: "Dekret z 24.10.2026 r. o prawie wyborczym", date: "2026-10-24", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 52, title: "Dekret z 10.10.2026 r. o Gwardii Krula", date: "2026-10-10", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 51, title: "Ustawa z 17.03.2025 r. o samorządzie prowincji (znowelizowana)", date: "2026-09-17", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
@@ -115,7 +116,7 @@ const kduDb = {
     { pos: 11, title: "Ustawa z 20.04.2024 r. o wolnościach sumienia i wyznania oraz związkach wyznaniowych", date: "2024-04-20", status: "Akt utracił moc", note: "Uchylony na mocy art. 34 Kr. Dz. U z 2026 r. poz. 47", pdfImg: "ustawa.png", docxImg: null },
     { pos: 10, title: "Rozporządzenie Wielkiego Skarbnika z 03.04.2024 r. w sprawie znaków pieniężnych Krulestwa Multikont", date: "2024-04-03", status: "Obowiązujący", note: null, pdfImg: "dyrektywa.png", docxImg: null },
     { pos: 9, title: "Dekret Krula z 03.04.2024 r. o ustanowieniu adresu strony internetowej Krulewskiego Dziennika Ustaw", date: "2024-04-03", status: "Akt utracił moc", note: null, pdfImg: "dekret.png", docxImg: null },
-    { pos: 8, title: "Ustawa z 02.04.2024 r. o Krulewskim Banku Centralnym", date: "2024-04-02", status: "Obowiązujący", note: null, pdfImg: "ustawa.png", docxImg: null },
+    { pos: 8, title: "Ustawa z 02.04.2024 r. o Krulewskim Banku Centralnym", date: "2024-04-02", status: "Akt utracił moc", note: "Uchylony na mocy art. 42 Kr. Dz. U z 2026 r. poz. 54", pdfImg: "ustawa.png", docxImg: null },
     { pos: 7, title: "Traktat o Lidze Państw Lewosławnych z 03.03.2024 r.", date: "2024-03-03", status: "Obowiązujący", note: null, pdfImg: "lpl.png", docxImg: null },
     { pos: 6, title: "Dekret Krula z 11.02.2024 r. o organizacji Sądu Najwyższego", date: "2024-02-11", status: "Akt utracił moc", note: "Uchylony na mocy art. 3 pkt 4 Kr. Dz. U z 2026 r. poz. 2", pdfImg: "dekret.png", docxImg: null },
     { pos: 5, title: "Dekret Krula z 11.02.2024 r. o organizacji sądów prowincjonalnych", date: "2024-02-11", status: "Akt utracił moc", note: "Uchylony na mocy art. 3 pkt 3 Kr. Dz. U z 2026 r. poz. 2", pdfImg: "dekret.png", docxImg: null },
