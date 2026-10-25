@@ -13,6 +13,7 @@ const statusMap = {
 // ==========================================================================
 const kduDb = {
   "2026": [
+    { pos: 55, title: "Ustawa z 25.10.2026 r. o Naczelnej Koronnej Radzie Lekarzy i Lekarzy Dentystów oraz o zawodzie lekarza i lekarza dentysty", date: "2026-10-25", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 54, title: "Ustawa z 23.10.2026 r. o Koronnym Banku Centralnym", date: "2026-10-25", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 53, title: "Dekret z 24.10.2026 r. o prawie wyborczym", date: "2026-10-24", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 52, title: "Dekret z 10.10.2026 r. o Gwardii Krula", date: "2026-10-10", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
