@@ -14,14 +14,14 @@ const statusMap = {
 // ==========================================================================
 const kduDb = {
   "2026": [
-    { pos: 57, title: "Ustawa z 28.10.2026 r. o publikatorach koronnych", date: "2026-10-28", status: "Ogłoszony", note: "Wejście w życie po upływie 14 dni od dnia ogłoszenia (11.11.2026 r.).", pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
-    { pos: 56, title: "Dekret z 28.10.2026 r. uchylający dekret o publikatorach koronnych", date: "2026-10-28", status: "Ogłoszony", note: "Uchyla dekret z poz. 50 z dniem wejścia w życie ustawy z poz. 57, tj. 11.11.2026 r.", pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
+    { pos: 57, title: "Ustawa z 28.10.2026 r. o publikatorach koronnych", date: "2026-10-28", status: "Obowiązujący", note: "Weszła w życie w dniu ogłoszenia; art. 26 stanowi, że ustawa wchodzi w życie z dniem ogłoszenia.", pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
+    { pos: 56, title: "Dekret z 28.10.2026 r. uchylający dekret o publikatorach koronnych", date: "2026-10-28", status: "Obowiązujący", note: "Wszedł w życie w dniu ogłoszenia, równocześnie z ustawą Kr. Dz. U. z 2026 r. poz. 57.", pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 55, title: "Ustawa z 25.10.2026 r. o Naczelnej Koronnej Radzie Lekarzy i Lekarzy Dentystów oraz o zawodzie lekarza i lekarza dentysty", date: "2026-10-25", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 54, title: "Ustawa z 23.10.2026 r. o Koronnym Banku Centralnym", date: "2026-10-25", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 53, title: "Dekret z 24.10.2026 r. o prawie wyborczym", date: "2026-10-24", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 52, title: "Dekret z 10.10.2026 r. o Gwardii Krula", date: "2026-10-10", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 51, title: "Ustawa z 17.03.2025 r. o samorządzie prowincji (znowelizowana)", date: "2026-09-17", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
-    { pos: 50, title: "Dekret z 16.09.2026 r. o publikatorach koronnych", date: "2026-09-16", status: "Obowiązujący", note: "Traci moc 11.11.2026 r. na mocy dekretu Kr. Dz. U. z 2026 r. poz. 56.", pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
+    { pos: 50, title: "Dekret z 16.09.2026 r. o publikatorach koronnych", date: "2026-09-16", status: "Akt utracił moc", note: "Utracił moc 28.10.2026 r. na mocy dekretu Kr. Dz. U. z 2026 r. poz. 56.", pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 49, title: "Dekret z 24.02.2026 r. o organizacji arystokracji (znowelizowany)", date: "2026-09-11", status: "Obowiązujący", note: null, pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
     { pos: 48, title: "Ustawa z 26.08.2026 r. o szkolnictwie wyższym i nauce", date: "2026-08-26", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 47, title: "Ustawa z 25.08.2026 r. o wolnościach sumienia i wyznania oraz koronnym podatku religijnym", date: "2026-08-25", status: "Obowiązujący", note: null, pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
