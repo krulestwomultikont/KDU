@@ -371,6 +371,12 @@ body {
   border: 1px solid #6e7681;
 }
 
+.status-announced {
+  background: #3b2b12;
+  color: #f2cc60;
+  border: 1px solid #9e6a03;
+}
+
 /* Tooltip dla statusów */
 .tooltip-container {
   position: relative;

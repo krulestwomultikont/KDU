@@ -3,7 +3,7 @@
 // ==========================================================================
 const statusMap = {
   "Obowiązujący": "status-active",
-  "Ogłoszony": "status-onetime",
+  "Ogłoszony": "status-announced",
   "Akt utracił moc": "status-repealed",
   "Znowelizowany": "status-amended",
   "Akt jednorazowy": "status-onetime"
