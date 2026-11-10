@@ -353,6 +353,13 @@ body {
   border: 1px solid #238636;
 }
 
+/* An act remains in force, but its published text has later been amended. */
+.status-active-amended {
+  background: #3b2b12;
+  color: #f2cc60;
+  border: 1px solid #9e6a03;
+}
+
 .status-repealed {
   background: #391942;
   color: #d2a8ff;

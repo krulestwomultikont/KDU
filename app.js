@@ -14,6 +14,7 @@ const statusMap = {
 // ==========================================================================
 const kduDb = {
   "2026": [
+    { pos: 59, title: "Dekret konstytucyjny z 10.11.2026 r. o zmianie Konstytucji Korony Krulestwa Multikont", date: "2026-11-10", status: "Obowiązujący", note: "Zmienia Konstytucję Korony Krulestwa Multikont (Kr. Dz. U. z 2025 r. poz. 26); wchodzi w życie z dniem ogłoszenia.", pdfImg: "dekretkonst_pdf.png", docxImg: "dekretkonst_docx.png" },
     { pos: 58, title: "Ustawa z 04.11.2026 r. o zmianie niektórych ustaw prawa koronnego", date: "2026-11-04", status: "Obowiązujący", note: "Wchodzi w życie z dniem ogłoszenia; art. 35 stanowi, że ustawa wchodzi w życie z dniem ogłoszenia.", pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 57, title: "Ustawa z 28.10.2026 r. o publikatorach koronnych", date: "2026-10-28", status: "Obowiązujący", note: "Weszła w życie w dniu ogłoszenia; art. 26 stanowi, że ustawa wchodzi w życie z dniem ogłoszenia.", pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
     { pos: 56, title: "Dekret z 28.10.2026 r. uchylający dekret o publikatorach koronnych", date: "2026-10-28", status: "Obowiązujący", note: "Wszedł w życie w dniu ogłoszenia, równocześnie z ustawą Kr. Dz. U. z 2026 r. poz. 57.", pdfImg: "dekret_pdf.png", docxImg: "dekret_docx.png" },
@@ -75,7 +76,7 @@ const kduDb = {
   ],
   "2025": [
     { pos: 27, title: "Ustawa z 30.12.2025 r. o działach administracji koronnej", date: "2025-12-30", status: "Znowelizowany", note: "Znowelizowany przez Kr. Dz. U. z 2026 r. poz. 17", pdfImg: "ustawa_pdf.png", docxImg: "ustawa_docx.png" },
-    { pos: 26, title: "Konstytucja Korony Krulestwa Multikont z 26.12.2025 r.", date: "2025-12-26", status: "Obowiązujący", note: "Weszła w życie z dniem 05.02.2026 r.", pdfImg: "konstytucja_pdf.png", docxImg: "konstytucja_docx.png" },
+    { pos: 26, title: "Konstytucja Korony Krulestwa Multikont z 26.12.2025 r.", date: "2025-12-26", status: "Obowiązujący", note: "Weszła w życie z dniem 05.02.2026 r.; Znowelizowana przez Kr. Dz. U. z 2026 r. poz. 59", pdfImg: "konstytucja_pdf.png", docxImg: "konstytucja_docx.png" },
     { pos: 25, title: "Traktat z 16.12.2025 r. zawarty pomiędzy Koroną Krulestwa Multikont a Patriarchatem Lewosławia dotyczący porozumienia w sprawie nacjonalizacji Lewosławnego Kościoła Krulestwa i przekształcenia go w Koronny Kościół Ignistrigona, jak również relacji Świętego Kościoła Lewosławia z Koronnym Kościołem Ignistrigona i Koroną Krulestwa Multikont", date: "2025-12-16", status: "Akt utracił moc", note: "Utracił moc z dniem 11.05.2026 r. w zw. z wejściem w życie Konkordatu Szkarłatu i Złota", pdfImg: "traktat_pdf.png", docxImg: "traktat_docx.png" },
     { pos: 24, title: "Dekret Konstytucyjny z 04.12.2025 r. o przemianowaniu Krulestwa Multikont na Koronę Krulestwa Multikont", date: "2025-12-04", status: "Obowiązujący", note: null, pdfImg: "dekretkonst_pdf.png", docxImg: "dekretkonst_docx.png" },
     { pos: 23, title: "Dyrektywa wykonawcza Wielkiego Diuka z 28.08.2025 r. w sprawie określenia okręgów właściwości cebulatorów regionalnych", date: "2025-08-28", status: "Akt utracił moc", note: "Uchylony na mocy art. 56 Kr. Dz. U z 2026 r. poz. 26", pdfImg: "dyrektywa_pdf.png", docxImg: "dyrektywa_docx.png" },
@@ -216,7 +217,8 @@ function renderTableHtml(items, yearLabel) {
             </thead>
             <tbody>
               ${items.map(item => {
-                const statusClass = statusMap[item.status] || "status-onetime";
+                const wasAmended = item.status === "Obowiązujący" && /znowelizowan[ya] przez/i.test(item.note || "");
+                const statusClass = wasAmended ? "status-active-amended" : (statusMap[item.status] || "status-onetime");
                 
                 let statusHtml = '';
                 if (item.note) {
